@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="calculator">
+
+        <h1>Calculator</h1>
+
+        <!-- first-number -->
+        <div class="first-number">
+            <input type="number" required name="first-number" id="first-number" placeholder="enter first number">
+        </div>
+
+        <!-- operator -->
+        <div class="operator">
+            <!-- <input type="text" name="operator" id="operator" placeholder="enter operator"> -->
+             <select name="operator" id="operator">
+                <option value="null">Select Operator</option>
+                <option value="+">Addition + </option>
+                <option value="-">Substraction -</option>
+                <option value="*">Multiplication *</option>
+                <option value="/">Division /</option>
+             </select>
+        </div>
+
+        <!-- second-number -->
+        <div class="second-number">
+            <input type="number" required  name="second-number" id="second-number" placeholder="enter second number">
+        </div>
+
+        <!-- result-button -->
+        <div class="result">
+
+            <button id="get-result">Get Result</button>
+
+            
+
+            <button id="clear">Clear</button>
+
+        </div>
+
+        <div id="result-area">Result Area</div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
